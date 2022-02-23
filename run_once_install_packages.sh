@@ -3,5 +3,6 @@
 sudo xbps-install \
 	neovim 	\
 	bspwm 	\
+	sxhkd	\
 	git	\
-	xorg
+	xorg	\
