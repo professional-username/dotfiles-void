@@ -6,3 +6,4 @@ sudo xbps-install \
 	sxhkd	\
 	git	\
 	xorg	\
+	alacritty\
