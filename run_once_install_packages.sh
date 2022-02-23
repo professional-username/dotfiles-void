@@ -7,3 +7,4 @@ sudo xbps-install \
 	git	\
 	xorg	\
 	alacritty\
+	firefox	\
