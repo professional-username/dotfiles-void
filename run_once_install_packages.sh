@@ -10,3 +10,4 @@ sudo xbps-install 	\
 	firefox		\
 	polybar 	\
 	jetbrains-jdk-bin \
+	feh 		\
