@@ -11,3 +11,4 @@ sudo xbps-install 	\
 	polybar 	\
 	jetbrains-jdk-bin \
 	feh 		\
+	xtools		\
