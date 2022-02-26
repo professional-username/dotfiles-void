@@ -9,3 +9,4 @@ sudo xbps-install 	\
 	alacritty	\
 	firefox		\
 	polybar 	\
+	jetbrains-jdk-bin \
