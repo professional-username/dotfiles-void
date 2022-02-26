@@ -1,0 +1,148 @@
+[colors]
+background = ${xrdb:color0:#222}
+background-alt = ${xrdb:color1:#222}
+foreground = ${xrdb:color7:#222}
+foreground-alt = ${xrdb:color8:#222}
+primary = ${xrdb:color1:#222}
+secondary = ${xrdb:color2:#222}
+alert = ${xrdb:color3:#222}
+color4 = ${xrdb:color4:#222}
+color5 = ${xrdb:color5:#222}
+color6 = ${xrdb:color6:#222}
+
+[bar/bar]
+; override-redirect = true
+wm-restack = bspwm
+
+width = 100%
+height = 50
+offset-y = -5
+radius = 6.0
+fixed-center = false
+bottom = true
+
+background = #00000000
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #f00
+
+font-0 = JetBrains Mono Nerd Font
+font-1 = "JetBrains Mono Nerd Font:size=27.5;5"
+
+modules-left = rofi bspwm left-cap
+modules-right = right-cap cpu memory wlan battery date settings
+
+
+[module/left-cap]
+type = custom/text
+content-font = 2
+content-foreground=${colors.background}
+content = ""
+
+[module/right-cap]
+type = custom/text
+content-font = 2
+content-foreground = ${colors.background}
+content = ""
+
+[module/bspwm]
+type = internal/bspwm
+
+label-focused = ﱢ
+label-focused-background = ${colors.background}
+label-focused-padding = 2
+
+label-occupied =  
+label-occupied-padding = 2
+label-occupied-background = ${colors.background}
+
+label-urgent =  
+label-urgent-foreground = ${colors.alert}
+label-urgent-background = ${colors.background}
+label-urgent-padding = 2
+
+label-empty =  
+label-empty-foreground = ${colors.foreground-alt}
+label-empty-background = ${colors.background}
+label-empty-padding = 2
+
+[module/rofi]
+type = custom/script
+exec = "echo 'ﯟ '"
+click-left = "rofi -show run"
+format = <label>
+label = ﯟ
+label-background = ${colors.background}
+label-padding = 2
+
+[module/settings]
+type = custom/script
+exec = "echo ' '"
+click-left = "settings-toggle"
+format = <label>
+label = 
+label-background = ${colors.background}
+label-padding = 2
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+label-padding = 2
+label-background = ${colors.background}
+label = CPU: %percentage:2%%
+
+[module/memory]
+type = internal/memory
+interval = 2
+label-padding = 2
+label-background = ${colors.background}
+label = MEM: %percentage_used%%
+
+[module/wlan]
+type = internal/network    
+interface = wlp63s0
+interval = 3.0
+
+label-connected = NET: %essid%
+label-connected-padding = 2
+label-connected-background = ${colors.background}
+
+label-disconnected = "No Network Connected"
+label-disconnected-padding = 2
+label-disconnected-background = ${colors.alert}
+
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ADP1
+
+format-full-prefix = "BAT: "
+format-full-background = ${colors.background}
+format-full-padding = 2
+
+format-discharging-padding = 2
+format-discharging-prefix = "BAT: "
+format-discharging-background = ${colors.background-alt}
+
+format-charging-padding = 2
+format-charging-prefix = "BAT: "
+format-charging-background = ${colors.background}
+
+label = %percentage:2%%
+
+[module/date]
+type = internal/date
+interval = 5
+
+date =
+date-alt = %Y-%m-%d
+
+time = %H:%M
+time-alt = 
+
+label = %date% %time%
+label-background = ${colors.background}
+label-padding = 1
+
+; vim:ft=dosini
