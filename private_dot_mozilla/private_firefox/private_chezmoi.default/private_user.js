@@ -1337,8 +1337,14 @@ user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.openpage", false);
 user_pref("browser.urlbar.suggest.topsites", false);
 
+user_pref("signon.rememberSignons", false);
+user_pref("signon.generation.enabled", false);
+user_pref("signon.management.page.breach-alerts.enabled", false);
+
 user_pref("browser.urlbar.shortcuts.bookmarks", false);
 user_pref("browser.urlbar.shortcuts.history", false);
 user_pref("browser.urlbar.shortcuts.tabs", false);
+
+user_pref("privacy.donottrackheader.enabled", true);
 
 user_pref("browser.search.hiddenOneOffs", "Google,Amazon.com,Bing,DuckDuckGo,Wikipedia (en)")
