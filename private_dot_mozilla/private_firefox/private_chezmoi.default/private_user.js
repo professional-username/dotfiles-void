@@ -1331,7 +1331,14 @@ user_pref("privacy.resistFingerprinting.letterboxing", false);
 
 
 // Cosmetic Configurations
-user_pref("browser.urlbar.suggest.bookmark", true);
-user_pref("browser.urlbar.suggest.engines", true);
-user_pref("browser.urlbar.suggest.history", true);
-user_pref("browser.urlbar.suggest.openpage", true);
+user_pref("browser.urlbar.suggest.bookmark", false);
+user_pref("browser.urlbar.suggest.engines", false);
+user_pref("browser.urlbar.suggest.history", false);
+user_pref("browser.urlbar.suggest.openpage", false);
+user_pref("browser.urlbar.suggest.topsites", false);
+
+user_pref("browser.urlbar.shortcuts.bookmarks", false);
+user_pref("browser.urlbar.shortcuts.history", false);
+user_pref("browser.urlbar.shortcuts.tabs", false);
+
+user_pref("browser.search.hiddenOneOffs", "Google,Amazon.com,Bing,DuckDuckGo,Wikipedia (en)")
