@@ -1331,15 +1331,7 @@ user_pref("privacy.resistFingerprinting.letterboxing", false);
 
 
 // Cosmetic Configurations
-
-user_pref("browser.urlbar.shortcuts.bookmarks", false);
-user_pref("browser.urlbar.shortcuts.history", false);
-user_pref("browser.urlbar.shortcuts.tabs", false);
-
-
-user_pref("extensions.activeThemeID", "{b8b83ac9-14f9-483c-8b70-be337176f1d6}");
-
-user_pref("extensions.webextensions.uuids", "{\"{446900e4-71c2-419f-a6a7-df9c091e268b}\":\"bd080179-7d3d-4342-8cfa-22b16063e8b1\",\"uBlock0@raymondhill.net\":\"c64e3148-97de-41ad-964d-1abf8ba40e82\",\"{b8b83ac9-14f9-483c-8b70-be337176f1d6}\":\"ca45c004-16ae-475f-b65f-d63a9f7deda0\"}");
-
-
-
+user_pref("browser.urlbar.suggest.bookmark", true);
+user_pref("browser.urlbar.suggest.engines", true);
+user_pref("browser.urlbar.suggest.history", true);
+user_pref("browser.urlbar.suggest.openpage", true);
