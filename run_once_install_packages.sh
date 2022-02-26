@@ -6,7 +6,7 @@ sudo xbps-install 	\
 	sxhkd		\
 	git		\
 	xorg		\
-	alacritty	\
+	kitty		\
 	firefox		\
 	polybar 	\
 	jetbrains-jdk-bin \
