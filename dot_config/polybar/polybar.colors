@@ -10,7 +10,7 @@ grey1 = #988BA2
 grey2 = #C3BAC6
 white = #D9E0EE
 
-background = ${colors.black0}
+background = ${colors.black2}
 background-alt = ${colors.grey0}
 foreground = ${colors.white}
 foreground-alt = ${colors.grey2}
