@@ -11,7 +11,8 @@ sudo xbps-install 	\
 	polybar 	\
 	jetbrains-jdk-bin \
 	feh 		\
-	xtools		
+	xtools		\
+	rofi
 
 
 # Install some packages outside of xbps
