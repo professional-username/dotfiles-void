@@ -11,7 +11,6 @@ sudo xbps-install 	\
 	polybar 	\
 	nerd-fonts 	\
 	feh 		\
-	xtools		\
 	rofi
 
 
