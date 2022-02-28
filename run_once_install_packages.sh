@@ -4,14 +4,17 @@ sudo xbps-install 	\
 	neovim 		\
 	bspwm 		\
 	sxhkd		\
-	git		\
+	git			\
 	xorg		\
 	kitty		\
 	firefox		\
 	polybar 	\
 	nerd-fonts 	\
 	feh 		\
-	rofi
+	rofi 		\
+	Thunar 		\
+	gtk-engine-murrine \
+	gnome-themes-extra
 
 
 # Install some packages outside of xbps

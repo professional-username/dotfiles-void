@@ -3,6 +3,9 @@
 # Launch polybar
 $HOME/.config/polybar/launch.sh
 
+# Export the gtk theme for sxhkd, start sxhkd
+# TODO: This is messy, must fix
+export GTK_THEME=Catppuccin-blue
 pgrep -x sxhkd >/dev/null || sxhkd &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
@@ -13,3 +16,5 @@ bspc config window_gap 45
 bspc config split_ratio 0.52
 bspc config borderless_monocle false
 bspc config gapless_monocle false
+
+bspc rule -a Thunar state=floating
