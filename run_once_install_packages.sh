@@ -9,7 +9,7 @@ sudo xbps-install 	\
 	kitty		\
 	firefox		\
 	polybar 	\
-	jetbrains-jdk-bin \
+	nerd-fonts 	\
 	feh 		\
 	xtools		\
 	rofi
