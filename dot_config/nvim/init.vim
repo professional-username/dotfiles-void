@@ -1,9 +1,9 @@
 " Plugins
 call plug#begin()
-Plug 'sbdchd/neoformat'		" Autoformatter
-Plug 'tpope/vim-commentary' " Easily comment/uncomment lines
-Plug 'preservim/nerdtree'	" File explorer
-Plug 'ervandew/supertab' 	" Simple autocomplete
+Plug 'sbdchd/neoformat'							" Autoformatter
+Plug 'tpope/vim-commentary' 					" Easily comment/uncomment lines
+Plug 'preservim/nerdtree'						" File explorer
+Plug 'ervandew/supertab' 						" Simple autocomplete
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}	" Catppuccin colorscheme
 Plug 'tom-doerr/vim_codex', {'branch': 'main'} 	" Codex autocomplete
 call plug#end()
